@@ -11,7 +11,7 @@ public class Main {
 	public static void main(String[] args) {
 		
 		PlayerManager playerManager = new PlayerManager(new MernisServiceAdapter()); // PlayerManager'a oyuncu eklerken Mernis doğrulaması tanımladık.
-		Player player1 = new Player(1, "Onur Can", "AKKOYUN", "30380501910", 1998, 0/*Default Balance*/);
+		Player player1 = new Player(1, "MustBeRealFullName", "MustBeRealSurname", "MustBeRealNationalID", 1998/*MustBeRealBithYear*/, 0/*Default Balance*/);
 		playerManager.add(player1);
 		playerManager.update(player1, 4000);// Burada player1 bakiye yüklemesi yaptı.
 		

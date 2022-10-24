@@ -30,7 +30,7 @@ public class Main {
 		gameManager.purchaseGame(player1, game3);// Burada kampanyalı oyunu tekrar satın aldık.
 		
 		campaignManager.updateCampaign(game3, campaign1, "onur20", 20);// Burada kampanyanın yüzdesini, ismini ve kampanyanın tanımlı olduğu oyunları güncelledik.
-		gameManager.purchaseGame(player1, game3);// Burada güncellenen kampanyalı oyunu tekrar yeni fiyatıyla aldık.
+		gameManager.purchaseGame(player1, game3);// Burada güncellenen kampanyalı oyunu tekrar indirimsiz fiyatıyla aldık.
 		
 		campaignManager.deleteCampaign(game3, campaign1.getCampaignPercentage());// Burada oluşturduğumuz kampanyayı sildik.
 		gameManager.purchaseGame(player1, game3);// Burada kampanyası silinen oyunu tekrar satın aldık.
